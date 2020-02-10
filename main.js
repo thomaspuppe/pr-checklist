@@ -57,9 +57,6 @@ function loadValues() {
             (document.getElementById(a).checked = checkboxValues[a]);
     }), countChecked();
 }
-function toggleExpand() {
-    return;
-}
 function resetCheckboxes() {
     this.classList.add("progress__reset--pressed"), checkboxes.forEach(
         a => (a.checked = !1)
@@ -70,8 +67,6 @@ function resetCheckboxes() {
 window.onload = function() {
     loadIds(), loadValues(), checkboxes.forEach(a =>
         a.addEventListener("click", countChecked)
-    ), labels.forEach(a =>
-        a.addEventListener("click", toggleExpand)
     ), reset.addEventListener("click", resetCheckboxes), reset.addEventListener(
         "animationend",
         function() {

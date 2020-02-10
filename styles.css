@@ -264,34 +264,6 @@ input[type=checkbox]:checked ~ label .checklist-item__title {
 		transform: scale(1, 1);
 	}
 }
-.checklist-item__expand {
-	float: right;
-	width: 20px;
-	height: 20px;
-	cursor: pointer;
-	border: 0;
-	outline: 0;
-	background: 0 0;
-}
-.keep {
-	font-family: -apple-system,
-		BlinkMacSystemFont,
-		'Segoe UI',
-		Roboto,
-		Oxygen,
-		Ubuntu,
-		Cantarell,
-		'Fira Sans',
-		'Droid Sans',
-		'Helvetica Neue',
-		sans-serif;
-	font-size: 1.063em;
-	line-height: 1.4;
-	overflow: hidden;
-	max-height: 0;
-	transition: max-height .3s ease-in;
-}
-
 
 footer {
 	font-weight: 300;
@@ -307,15 +279,6 @@ footer span {
 	padding: 0 .175em;
 	vertical-align: middle;
 	color: #bf6bfe;
-}
-.title-404 {
-	font-size: 6.5em;
-	width: 100%;
-	margin-bottom: 0;
-	text-align: center;
-}
-.text-404 {
-	font-size: 2.5em;
 }
 
 @media print {
